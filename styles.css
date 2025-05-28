@@ -151,12 +151,19 @@ header h1 {
 
 .nav-bar {
     overflow: hidden;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #111;
+  color: #fff;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
     float: right;
+    gap: 2rem;
 }
 
 .nav-links li {
@@ -173,6 +180,13 @@ header h1 {
 .nav-links a:hover {
     color: var(--light-accent);
     transform: translateY(-1px);
+}
+
+/* Hamburger Style */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .menu-toggle {
@@ -192,26 +206,32 @@ header h1 {
 
 @media (max-width: 768px) {
     .nav-links {
-        position: center;
-        left: -100%;
+        position: absolute;
         top: 70px;
+        right: 0;
         flex-direction: column;
         background-color: var(--primary-color);
         width: 100%;
-        text-align: center;
+        overflow: hidden;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(47, 62, 70, 0.15);
     }
 
     .hamburger {
-        display: flex;
+        display: block;
     }
     .nav-links.active {
         left: 0;
     }
 
+     #menu-toggle:checked ~ .nav-links {
+    max-height: 300px;
+    padding: 1rem 0;
+     }
+     
     .nav-links li {
-        margin: 2.5rem 0;
+       text-align: center;
+       padding: 1rem 0;
     }
 
     .menu-toggle {
