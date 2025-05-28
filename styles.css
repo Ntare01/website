@@ -181,14 +181,6 @@ header h1 {
     color: var(--light-accent);
     transform: translateY(-1px);
 }
-
-/* Hamburger Style */
-.hamburger {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
 .menu-toggle {
     display: none;
     background: none;
@@ -228,7 +220,7 @@ header h1 {
     max-height: 300px;
     padding: 1rem 0;
      }
-     
+
     .nav-links li {
        text-align: center;
        padding: 1rem 0;
