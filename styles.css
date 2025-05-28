@@ -214,6 +214,8 @@ header h1 {
     }
     .nav-links.active {
         left: 0;
+        font-size: 0.9rem;
+        padding: o.5rem 0;
     }
 
      #menu-toggle:checked ~ .nav-links {
@@ -222,13 +224,19 @@ header h1 {
      }
 
     .nav-links li {
-       text-align: center;
-       padding: 1rem 0;
+        flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
     }
 
     .menu-toggle {
         display: block;
     }
+    .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem;
+  }
 }
 
 nav ul {
