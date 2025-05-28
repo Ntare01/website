@@ -131,7 +131,7 @@ header .container {
 
 @media (max-width: 768px) {
     .logo img {
-        width: 170px;
+        width: 120px;
     }
 }
 
@@ -192,7 +192,7 @@ header h1 {
 
 @media (max-width: 768px) {
     .nav-links {
-        position: fixed;
+        position: center;
         left: -100%;
         top: 70px;
         flex-direction: column;
@@ -283,7 +283,7 @@ nav a:hover {
     font-size: 1.3rem;
     font-weight: 400;
     margin-bottom: 1rem;
-    max-width: 800px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.6;
@@ -548,7 +548,7 @@ footer {
 }
 
 .copyright .container {
-    max-width: 100%;
+    width: 100%;
     padding: 0 20px;
 }
 
