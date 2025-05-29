@@ -278,7 +278,7 @@ nav a:hover {
 
 .hero {
     background-image: url("back.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     color: #FFFFFF;
     text-align: center;
@@ -287,12 +287,6 @@ nav a:hover {
     height: 88vh;
 }
 
-@media (max-width: 768px) {
-  .hero {
-    padding: 80px 20px;
-    height: auto;
-  }
-}
 
 .hero .overlay {
     position: absolute;
