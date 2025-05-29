@@ -278,13 +278,20 @@ nav a:hover {
 
 .hero {
     background-image: url("back.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     color: #FFFFFF;
     text-align: center;
     padding: 150px 0;
     position: relative;
     height: 88vh;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 20px;
+    height: auto;
+  }
 }
 
 .hero .overlay {
