@@ -280,16 +280,17 @@ nav a:hover {
     background-image: url("back.jpg");
     background-size: cover;
     background-position: center;
-    color:#b2f1c0;
+    color: #082016;
     text-align: center;
     padding: 150px 0;
     position: relative;
     height: 88vh;
+     z-index: 2;
 }
 
 
 .hero .overlay {
-    position: absolute;
+    position: relative;
     left: 0;
     top: 0;
     height: 100%;
@@ -309,7 +310,7 @@ nav a:hover {
     letter-spacing: -0.03em;
 }
 
-.hero .overlay p {
+.hero .overlay h3 {
     font-family: 'Inter', sans-serif;
     font-size: 1.3rem;
     font-weight: 400;
