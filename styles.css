@@ -280,7 +280,7 @@ nav a:hover {
     background-image: url("back.jpg");
     background-size: cover;
     background-position: center;
-    color: #082016;
+    color: #e0f3eb;
     text-align: center;
     padding: 150px 0;
     position: relative;
@@ -311,6 +311,10 @@ nav a:hover {
 }
 
 .hero .overlay h3 {
+    color: var(--text-color);
+}
+
+.hero .overlay p {
     font-family: 'Inter', sans-serif;
     font-size: 1.3rem;
     font-weight: 400;
