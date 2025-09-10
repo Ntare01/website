@@ -281,7 +281,6 @@ nav a:hover {
     background-image: url("background.jpeg") no-repeat center center;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     color: #e0f3eb;
     text-align: center;
     padding: 150px 0;
